@@ -30,7 +30,6 @@ const seedDatabase = async (client) => {
       const depictionElements = depictionElementKeys.filter(
         (key) => dataItem[key] === 1
       );
-
       return {
         episode: EPISODE,
         // Remove the extra quotation marks
